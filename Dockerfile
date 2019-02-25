@@ -23,9 +23,9 @@ RUN set -x \
      fftw3-dev wget -y \
   && cp /usr/share/zoneinfo/Europe/Paris /etc/localtime \
   && cd /tmp \
-  && wget https://github.com/octupole/openTRJ/archive/v0.5.beta8.tar.gz \
-  && tar xvfz "v0.5.beta8.tar.gz" \
-  && cd openTRJ-0.5.beta8 \
+  && wget https://github.com/octupole/openTRJ/archive/v0.5.beta9.tar.gz \
+  && tar xvfz "v0.5.beta9.tar.gz" \
+  && cd openTRJ-0.5.beta9 \
   && mkdir build\
   && cd build\
   && cmake -DCMAKE_INSTALL_PREFIX=/usr/local .. \
