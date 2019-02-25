@@ -29,7 +29,7 @@ RUN set -x \
   && mkdir build\
   && cd build\
   && cmake -DCMAKE_INSTALL_PREFIX=/usr/local .. \
-  && make -j \
+  && make  \
   && make install
 
 
